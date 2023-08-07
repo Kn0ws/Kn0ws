@@ -1,16 +1,18 @@
-### Hi there 👋
+[![Blog Badge](https://img.shields.io/badge/Blog-000000?style=for-the-badge&logo=google-chrome&logoColor=white)](https://dev.kn0ws.com)
 
-<!--
-**Kn0ws/Kn0ws** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```PHP
+use Developer;
+use Guitarist;
 
-Here are some ideas to get you started:
+class Bio extends Developer {
+  name     =  'Kawaguchi Chihiro';
+  title    =  'Web & Software Developer';
+  location =  'Japan, Aichi';
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class Skills extends Developer {
+  languages   =  ['PHP', 'C#', 'Julia', 'Rust','JavaScript'];
+  databases   =  ['MySQL', 'MongoDB', 'PostgreSQL'];
+  frameworks  =  ['Codeigniter', 'Yii', '.NET Framework', 'Genie', 'axum'];
+}
+```
