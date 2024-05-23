@@ -5,14 +5,13 @@ use Developer;
 use Guitarist;
 
 class Bio extends Developer {
-  name     =  'Kawaguchi Chihiro';
+  name     =  'Kn0ws';
   title    =  'Web & Software Developer';
   location =  'Japan, Aichi';
 }
 
 class Skills extends Developer {
-  languages   =  ['PHP', 'C#', 'Julia', 'Rust','JavaScript'];
-  databases   =  ['MySQL', 'MongoDB', 'PostgreSQL'];
-  frameworks  =  ['Codeigniter', 'Yii', '.NET Framework', 'Genie', 'axum'];
+  languages   =  ['PHP', 'C#', 'Python', 'JavaScript'];
+  frameworks  =  ['Codeigniter', 'Django', '.NET Framework'];
 }
 ```
